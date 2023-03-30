@@ -206,8 +206,23 @@ img:hover {
     color: rgb(83, 82, 82);
 }
 
-.gitlogo {
+.linkimg {
+    display: grid;
+    grid-template-columns: 1fr 70px 50px;
+    grid-template-rows: 1fr;
+}
+.cimg {
     height: 35px;
+}
+
+.c1 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: end;
+}
+.c2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
     justify-self: end;
 }
 
